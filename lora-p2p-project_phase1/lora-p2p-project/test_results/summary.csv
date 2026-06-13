@@ -1,0 +1,5 @@
+Test,ImageSize_KB,LossRate_%,ChunksSent,Retransmissions,RetransRate_%,Duration_s,ACKsSent,ACKsReceived,Complete
+10KB_20Loss,10,20,0,0,0,0,0,0,False
+5KB_10Loss,5,10,0,0,0,0,0,0,False
+5KB_20Loss,5,20,0,0,0,0,0,0,False
+5KB_30Loss,5,30,0,0,0,0,0,0,False

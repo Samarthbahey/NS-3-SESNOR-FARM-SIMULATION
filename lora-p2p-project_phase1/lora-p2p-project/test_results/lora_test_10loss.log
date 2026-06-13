@@ -1,0 +1,194 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+=== LoRa P2P Image Transfer ===
+Schedule: ONE image per day (20 MB)
+Image: 100 KB (0.0976562 MB)
+Loss: 10%
+Chunk size: 92 bytes
+
+Total chunks: 1114
+
+NetAnim trace file: lora-p2p-transfer.xml
+
+Chunk visualization: Node labels show chunk counts
+Packets: Each packet represents one 92-byte chunk
+
+=== Daily Capture Schedule ===
+Camera captures ONE 20 MB image per day
+No new capture until current transfer completes
+
+Hardware Setup:
+  Camera Module <-CSI-> Raspberry Pi 5 <-UART-> EBYTE E220-900T22D (868MHz, 22dBm)
+  EBYTE E220-900T22D <-UART-> Raspberry Pi 5
+Wireless Distance: 1100 meters (1.1 km)
+LoRa Data Rate: 5.47 kbps (SF7)
+
+[SENDER] Starting transmission of 1114 chunks
+[SENDER] Sent chunk 0/1114
+[SENDER] Sent chunk 1/1114
+[SENDER] Sent chunk 2/1114
+[SENDER] Sent chunk 3/1114
+[SENDER] Sent chunk 4/1114
+[SENDER] Sent chunk 5/1114
+[SENDER] Sent chunk 6/1114
+[SENDER] Sent chunk 7/1114
+[SENDER] Sent chunk 8/1114
+[SENDER] Sent chunk 9/1114
+[SENDER] Sent chunk 10/1114
+[SENDER] Sent chunk 11/1114
+[SENDER] Sent chunk 12/1114
+[SENDER] Sent chunk 13/1114
+[SENDER] Sent chunk 14/1114
+[SENDER] Sent chunk 15/1114
+[SENDER] Sent chunk 16/1114
+[SENDER] Sent chunk 17/1114
+[SENDER] Sent chunk 18/1114
+[SENDER] Sent chunk 19/1114
+[SENDER] Sent chunk 20/1114
+[SENDER] Sent chunk 21/1114
+[SENDER] Sent chunk 22/1114
+[SENDER] Sent chunk 23/1114
+[SENDER] Sent chunk 24/1114
+[SENDER] Sent chunk 25/1114
+[SENDER] Sent chunk 26/1114
+[SENDER] Sent chunk 27/1114
+[SENDER] Sent chunk 28/1114
+[SENDER] Sent chunk 29/1114
+[SENDER] Sent chunk 30/1114
+[SENDER] Sent chunk 31/1114
+[SENDER] Sent chunk 32/1114
+[SENDER] Sent chunk 33/1114
+[SENDER] Sent chunk 34/1114
+[SENDER] Sent chunk 35/1114
+[SENDER] Sent chunk 36/1114
+[SENDER] Sent chunk 37/1114
+[SENDER] Sent chunk 38/1114
+[SENDER] Sent chunk 39/1114
+[SENDER] Sent chunk 40/1114
+[SENDER] Sent chunk 41/1114
+[SENDER] Sent chunk 42/1114
+[SENDER] Sent chunk 43/1114
+[SENDER] Sent chunk 44/1114
+[SENDER] Sent chunk 45/1114
+[SENDER] Sent chunk 46/1114
+[SENDER] Sent chunk 47/1114
+[SENDER] Sent chunk 48/1114
+[SENDER] Sent chunk 49/1114
+[SENDER] Sent chunk 50/1114
+[SENDER] Sent chunk 51/1114
+[SENDER] Sent chunk 52/1114
+[SENDER] Sent chunk 53/1114
+[SENDER] Sent chunk 54/1114
+[SENDER] Sent chunk 55/1114
+[SENDER] Sent chunk 56/1114
+[SENDER] Sent chunk 57/1114
+[SENDER] Sent chunk 58/1114
+[SENDER] Sent chunk 59/1114
+[SENDER] Sent chunk 60/1114
+[SENDER] Sent chunk 61/1114
+[SENDER] Sent chunk 62/1114
+[SENDER] Sent chunk 63/1114
+[SENDER] Sent chunk 64/1114
+[SENDER] Sent chunk 65/1114
+[SENDER] Sent chunk 66/1114
+[SENDER] Sent chunk 67/1114
+[SENDER] Sent chunk 68/1114
+[SENDER] Sent chunk 69/1114
+[SENDER] Sent chunk 70/1114
+[SENDER] Sent chunk 71/1114
+[SENDER] Sent chunk 72/1114
+[SENDER] Sent chunk 73/1114
+[SENDER] Sent chunk 74/1114
+[SENDER] Sent chunk 75/1114
+[SENDER] Sent chunk 76/1114
+[SENDER] Sent chunk 77/1114
+[SENDER] Sent chunk 78/1114
+[SENDER] Sent chunk 79/1114
+[SENDER] Sent chunk 80/1114
+[SENDER] Sent chunk 81/1114
+[SENDER] Sent chunk 82/1114
+[SENDER] Sent chunk 83/1114
+[SENDER] Sent chunk 84/1114
+[SENDER] Sent chunk 85/1114
+[SENDER] Sent chunk 86/1114
+[SENDER] Sent chunk 87/1114
+[SENDER] Sent chunk 88/1114
+[SENDER] Sent chunk 89/1114
+[SENDER] Sent chunk 90/1114
+[SENDER] Sent chunk 91/1114
+[SENDER] Sent chunk 92/1114
+[SENDER] Sent chunk 93/1114
+[SENDER] Sent chunk 94/1114
+[SENDER] Sent chunk 95/1114
+[SENDER] Sent chunk 96/1114
+[SENDER] Sent chunk 97/1114
+[SENDER] Sent chunk 98/1114
+[SENDER] Sent chunk 99/1114
+[SENDER] Sent chunk 100/1114
+[SENDER] Sent chunk 101/1114
+[SENDER] Sent chunk 102/1114
+[SENDER] Sent chunk 103/1114
+[SENDER] Sent chunk 104/1114
+[SENDER] Sent chunk 105/1114
+[SENDER] Sent chunk 106/1114
+[SENDER] Sent chunk 107/1114
+[SENDER] Sent chunk 108/1114
+[SENDER] Sent chunk 109/1114
+[SENDER] Sent chunk 110/1114
+[SENDER] Sent chunk 111/1114
+[SENDER] Sent chunk 112/1114
+[SENDER] Sent chunk 113/1114
+[SENDER] Sent chunk 114/1114
+[SENDER] Sent chunk 115/1114
+[SENDER] Sent chunk 116/1114
+[SENDER] Sent chunk 117/1114
+[SENDER] Sent chunk 118/1114
+[SENDER] Sent chunk 119/1114
+[SENDER] Sent chunk 120/1114
+[SENDER] Sent chunk 121/1114
+[SENDER] Sent chunk 122/1114
+[SENDER] Sent chunk 123/1114
+[SENDER] Sent chunk 124/1114
+[SENDER] Sent chunk 125/1114
+[SENDER] Sent chunk 126/1114
+[SENDER] Sent chunk 127/1114
+[SENDER] Sent chunk 128/1114
+[SENDER] Sent chunk 129/1114
+[SENDER] Sent chunk 130/1114
+[SENDER] Sent chunk 131/1114
+[SENDER] Sent chunk 132/1114
+[SENDER] Sent chunk 133/1114
+[SENDER] Sent chunk 134/1114
+[SENDER] Sent chunk 135/1114
+[SENDER] Sent chunk 136/1114
+[SENDER] Sent chunk 137/1114
+[SENDER] Sent chunk 138/1114
+[SENDER] Sent chunk 139/1114
+[SENDER] Sent chunk 140/1114
+[SENDER] Sent chunk 141/1114
+[SENDER] Sent chunk 142/1114
+[SENDER] Sent chunk 143/1114
+[SENDER] Sent chunk 144/1114
+[SENDER] Sent chunk 145/1114
+[SENDER] Sent chunk 146/1114
+[SENDER] Sent chunk 147/1114
+[SENDER] Sent chunk 148/1114
+[SENDER] Sent chunk 149/1114
+[SENDER] Sent chunk 150/1114
+[SENDER] Sent chunk 151/1114
+[SENDER] Sent chunk 152/1114
+[SENDER] Sent chunk 153/1114
+[SENDER] Sent chunk 154/1114
+[SENDER] Sent chunk 155/1114
+[SENDER] Sent chunk 156/1114
+[SENDER] Sent chunk 157/1114
+
+=== Results ===
+Chunks sent: 158
+Chunks received: 0
+Retransmissions: 0
+ACKs sent: 0
+ACKs received: 0
+Retransmit rate: 0%
+

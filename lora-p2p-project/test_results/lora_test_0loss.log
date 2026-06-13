@@ -1,0 +1,330 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+=== LoRa P2P Image Transfer ===
+Schedule: ONE image per day (20 MB)
+Image: 100 KB (0.0976562 MB)
+Loss: 0%
+Chunk size: 92 bytes
+
+Total chunks: 1114
+
+NetAnim trace file: lora-p2p-transfer.xml
+
+Chunk visualization: Node labels show chunk counts
+Packets: Each packet represents one 92-byte chunk
+
+=== Daily Capture Schedule ===
+Camera captures ONE 20 MB image per day
+No new capture until current transfer completes
+
+Hardware Setup:
+  Camera Module <-CSI-> Raspberry Pi 5 <-UART-> EBYTE E220-900T22D (868MHz, 22dBm)
+  EBYTE E220-900T22D <-UART-> Raspberry Pi 5
+Wireless Distance: 1100 meters (1.1 km)
+LoRa Data Rate: 5.47 kbps (SF7)
+
+[SENDER] Starting transmission of 1114 chunks
+[SENDER] Sent chunk 0/1114
+[RECEIVER] Got chunk 0/1114 (total: 1)
+[SENDER] Sent chunk 1/1114
+[RECEIVER] Got chunk 1/1114 (total: 2)
+[RECEIVER] Sent ACKs for 2 chunks
+[SENDER] Sent chunk 2/1114
+[SENDER] Received ACKs for 2 chunks
+[RECEIVER] Got chunk 2/1114 (total: 3)
+[SENDER] Sent chunk 3/1114
+[RECEIVER] Got chunk 3/1114 (total: 4)
+[SENDER] Sent chunk 4/1114
+[RECEIVER] Got chunk 4/1114 (total: 5)
+[SENDER] Sent chunk 5/1114
+[RECEIVER] Got chunk 5/1114 (total: 6)
+[SENDER] Sent chunk 6/1114
+[RECEIVER] Sent ACKs for 6 chunks
+[SENDER] Received ACKs for 6 chunks
+[RECEIVER] Got chunk 6/1114 (total: 7)
+[SENDER] Sent chunk 7/1114
+[RECEIVER] Got chunk 7/1114 (total: 8)
+[SENDER] Sent chunk 8/1114
+[RECEIVER] Got chunk 8/1114 (total: 9)
+[SENDER] Sent chunk 9/1114
+[RECEIVER] Got chunk 9/1114 (total: 10)
+[SENDER] Sent chunk 10/1114
+[RECEIVER] Sent ACKs for 10 chunks
+[SENDER] Received ACKs for 10 chunks
+[RECEIVER] Got chunk 10/1114 (total: 11)
+[SENDER] Sent chunk 11/1114
+[RECEIVER] Got chunk 11/1114 (total: 12)
+[SENDER] Sent chunk 12/1114
+[RECEIVER] Got chunk 12/1114 (total: 13)
+[SENDER] Sent chunk 13/1114
+[RECEIVER] Got chunk 13/1114 (total: 14)
+[SENDER] Sent chunk 14/1114
+[RECEIVER] Sent ACKs for 14 chunks
+[SENDER] Received ACKs for 14 chunks
+[RECEIVER] Got chunk 14/1114 (total: 15)
+[SENDER] Sent chunk 15/1114
+[RECEIVER] Got chunk 15/1114 (total: 16)
+[SENDER] Sent chunk 16/1114
+[RECEIVER] Got chunk 16/1114 (total: 17)
+[SENDER] Sent chunk 17/1114
+[RECEIVER] Got chunk 17/1114 (total: 18)
+[SENDER] Sent chunk 18/1114
+[RECEIVER] Sent ACKs for 18 chunks
+[SENDER] Received ACKs for 18 chunks
+[RECEIVER] Got chunk 18/1114 (total: 19)
+[SENDER] Sent chunk 19/1114
+[RECEIVER] Got chunk 19/1114 (total: 20)
+[SENDER] Sent chunk 20/1114
+[RECEIVER] Got chunk 20/1114 (total: 21)
+[SENDER] Sent chunk 21/1114
+[RECEIVER] Got chunk 21/1114 (total: 22)
+[SENDER] Sent chunk 22/1114
+[RECEIVER] Sent ACKs for 22 chunks
+[SENDER] Received ACKs for 22 chunks
+[RECEIVER] Got chunk 22/1114 (total: 23)
+[SENDER] Sent chunk 23/1114
+[RECEIVER] Got chunk 23/1114 (total: 24)
+[SENDER] Sent chunk 24/1114
+[RECEIVER] Got chunk 24/1114 (total: 25)
+[SENDER] Sent chunk 25/1114
+[RECEIVER] Got chunk 25/1114 (total: 26)
+[SENDER] Sent chunk 26/1114
+[RECEIVER] Sent ACKs for 26 chunks
+[RECEIVER] Got chunk 26/1114 (total: 27)
+[SENDER] Received ACKs for 26 chunks
+[SENDER] Sent chunk 27/1114
+[RECEIVER] Got chunk 27/1114 (total: 28)
+[SENDER] Sent chunk 28/1114
+[RECEIVER] Got chunk 28/1114 (total: 29)
+[SENDER] Sent chunk 29/1114
+[RECEIVER] Got chunk 29/1114 (total: 30)
+[SENDER] Sent chunk 30/1114
+[RECEIVER] Sent ACKs for 30 chunks
+[RECEIVER] Got chunk 30/1114 (total: 31)
+[SENDER] Received ACKs for 30 chunks
+[SENDER] Sent chunk 31/1114
+[RECEIVER] Got chunk 31/1114 (total: 32)
+[SENDER] Sent chunk 32/1114
+[RECEIVER] Got chunk 32/1114 (total: 33)
+[SENDER] Sent chunk 33/1114
+[RECEIVER] Got chunk 33/1114 (total: 34)
+[SENDER] Sent chunk 34/1114
+[RECEIVER] Sent ACKs for 34 chunks
+[RECEIVER] Got chunk 34/1114 (total: 35)
+[SENDER] Received ACKs for 34 chunks
+[SENDER] Sent chunk 35/1114
+[RECEIVER] Got chunk 35/1114 (total: 36)
+[SENDER] Sent chunk 36/1114
+[RECEIVER] Got chunk 36/1114 (total: 37)
+[SENDER] Sent chunk 37/1114
+[RECEIVER] Got chunk 37/1114 (total: 38)
+[SENDER] Sent chunk 38/1114
+[RECEIVER] Sent ACKs for 38 chunks
+[RECEIVER] Got chunk 38/1114 (total: 39)
+[SENDER] Received ACKs for 38 chunks
+[SENDER] Sent chunk 39/1114
+[RECEIVER] Got chunk 39/1114 (total: 40)
+[SENDER] Sent chunk 40/1114
+[RECEIVER] Got chunk 40/1114 (total: 41)
+[SENDER] Sent chunk 41/1114
+[RECEIVER] Got chunk 41/1114 (total: 42)
+[SENDER] Sent chunk 42/1114
+[RECEIVER] Sent ACKs for 42 chunks
+[RECEIVER] Got chunk 42/1114 (total: 43)
+[SENDER] Received ACKs for 42 chunks
+[SENDER] Sent chunk 43/1114
+[RECEIVER] Got chunk 43/1114 (total: 44)
+[SENDER] Sent chunk 44/1114
+[RECEIVER] Got chunk 44/1114 (total: 45)
+[SENDER] Sent chunk 45/1114
+[RECEIVER] Got chunk 45/1114 (total: 46)
+[SENDER] Sent chunk 46/1114
+[RECEIVER] Sent ACKs for 46 chunks
+[RECEIVER] Got chunk 46/1114 (total: 47)
+[SENDER] Received ACKs for 46 chunks
+[SENDER] Sent chunk 47/1114
+[RECEIVER] Got chunk 47/1114 (total: 48)
+[SENDER] Sent chunk 48/1114
+[RECEIVER] Got chunk 48/1114 (total: 49)
+[SENDER] Sent chunk 49/1114
+[RECEIVER] Got chunk 49/1114 (total: 50)
+[SENDER] Sent chunk 50/1114
+[RECEIVER] Sent ACKs for 50 chunks
+[RECEIVER] Got chunk 50/1114 (total: 51)
+[SENDER] Received ACKs for 50 chunks
+[SENDER] Sent chunk 51/1114
+[RECEIVER] Got chunk 51/1114 (total: 52)
+[SENDER] Sent chunk 52/1114
+[RECEIVER] Got chunk 52/1114 (total: 53)
+[SENDER] Sent chunk 53/1114
+[RECEIVER] Got chunk 53/1114 (total: 54)
+[SENDER] Sent chunk 54/1114
+[RECEIVER] Sent ACKs for 54 chunks
+[RECEIVER] Got chunk 54/1114 (total: 55)
+[SENDER] Received ACKs for 54 chunks
+[SENDER] Sent chunk 55/1114
+[RECEIVER] Got chunk 55/1114 (total: 56)
+[SENDER] Sent chunk 56/1114
+[RECEIVER] Got chunk 56/1114 (total: 57)
+[SENDER] Sent chunk 57/1114
+[RECEIVER] Got chunk 57/1114 (total: 58)
+[SENDER] Sent chunk 58/1114
+[RECEIVER] Sent ACKs for 58 chunks
+[RECEIVER] Got chunk 58/1114 (total: 59)
+[SENDER] Received ACKs for 58 chunks
+[SENDER] Sent chunk 59/1114
+[RECEIVER] Got chunk 59/1114 (total: 60)
+[SENDER] Sent chunk 60/1114
+[RECEIVER] Got chunk 60/1114 (total: 61)
+[SENDER] Sent chunk 61/1114
+[RECEIVER] Got chunk 61/1114 (total: 62)
+[SENDER] Sent chunk 62/1114
+[RECEIVER] Sent ACKs for 62 chunks
+[RECEIVER] Got chunk 62/1114 (total: 63)
+[SENDER] Received ACKs for 62 chunks
+[SENDER] Sent chunk 63/1114
+[RECEIVER] Got chunk 63/1114 (total: 64)
+[SENDER] Sent chunk 64/1114
+[RECEIVER] Got chunk 64/1114 (total: 65)
+[SENDER] Sent chunk 65/1114
+[RECEIVER] Got chunk 65/1114 (total: 66)
+[SENDER] Sent chunk 66/1114
+[RECEIVER] Sent ACKs for 66 chunks
+[RECEIVER] Got chunk 66/1114 (total: 67)
+[SENDER] Received ACKs for 66 chunks
+[SENDER] Sent chunk 67/1114
+[RECEIVER] Got chunk 67/1114 (total: 68)
+[SENDER] Sent chunk 68/1114
+[RECEIVER] Got chunk 68/1114 (total: 69)
+[SENDER] Sent chunk 69/1114
+[RECEIVER] Got chunk 69/1114 (total: 70)
+[SENDER] Sent chunk 70/1114
+[RECEIVER] Sent ACKs for 70 chunks
+[RECEIVER] Got chunk 70/1114 (total: 71)
+[SENDER] Sent chunk 71/1114
+[SENDER] Received ACKs for 70 chunks
+[RECEIVER] Got chunk 71/1114 (total: 72)
+[SENDER] Sent chunk 72/1114
+[RECEIVER] Got chunk 72/1114 (total: 73)
+[SENDER] Sent chunk 73/1114
+[RECEIVER] Got chunk 73/1114 (total: 74)
+[SENDER] Sent chunk 74/1114
+[RECEIVER] Sent ACKs for 74 chunks
+[RECEIVER] Got chunk 74/1114 (total: 75)
+[SENDER] Sent chunk 75/1114
+[SENDER] Received ACKs for 74 chunks
+[RECEIVER] Got chunk 75/1114 (total: 76)
+[SENDER] Sent chunk 76/1114
+[RECEIVER] Got chunk 76/1114 (total: 77)
+[SENDER] Sent chunk 77/1114
+[RECEIVER] Got chunk 77/1114 (total: 78)
+[SENDER] Sent chunk 78/1114
+[RECEIVER] Sent ACKs for 78 chunks
+[RECEIVER] Got chunk 78/1114 (total: 79)
+[SENDER] Sent chunk 79/1114
+[SENDER] Received ACKs for 78 chunks
+[RECEIVER] Got chunk 79/1114 (total: 80)
+[SENDER] Sent chunk 80/1114
+[RECEIVER] Got chunk 80/1114 (total: 81)
+[SENDER] Sent chunk 81/1114
+[RECEIVER] Got chunk 81/1114 (total: 82)
+[SENDER] Sent chunk 82/1114
+[RECEIVER] Sent ACKs for 82 chunks
+[RECEIVER] Got chunk 82/1114 (total: 83)
+[SENDER] Sent chunk 83/1114
+[SENDER] Received ACKs for 82 chunks
+[RECEIVER] Got chunk 83/1114 (total: 84)
+[SENDER] Sent chunk 84/1114
+[RECEIVER] Got chunk 84/1114 (total: 85)
+[SENDER] Sent chunk 85/1114
+[RECEIVER] Got chunk 85/1114 (total: 86)
+[SENDER] Sent chunk 86/1114
+[RECEIVER] Sent ACKs for 86 chunks
+[RECEIVER] Got chunk 86/1114 (total: 87)
+[SENDER] Sent chunk 87/1114
+[SENDER] Received ACKs for 86 chunks
+[RECEIVER] Got chunk 87/1114 (total: 88)
+[SENDER] Sent chunk 88/1114
+[RECEIVER] Got chunk 88/1114 (total: 89)
+[SENDER] Sent chunk 89/1114
+[RECEIVER] Got chunk 89/1114 (total: 90)
+[SENDER] Sent chunk 90/1114
+[RECEIVER] Sent ACKs for 90 chunks
+[RECEIVER] Got chunk 90/1114 (total: 91)
+[SENDER] Sent chunk 91/1114
+[SENDER] Received ACKs for 90 chunks
+[RECEIVER] Got chunk 91/1114 (total: 92)
+[SENDER] Sent chunk 92/1114
+[RECEIVER] Got chunk 92/1114 (total: 93)
+[SENDER] Sent chunk 93/1114
+[RECEIVER] Got chunk 93/1114 (total: 94)
+[SENDER] Sent chunk 94/1114
+[RECEIVER] Sent ACKs for 94 chunks
+[RECEIVER] Got chunk 94/1114 (total: 95)
+[SENDER] Sent chunk 95/1114
+[SENDER] Received ACKs for 94 chunks
+[RECEIVER] Got chunk 95/1114 (total: 96)
+[SENDER] Sent chunk 96/1114
+[RECEIVER] Got chunk 96/1114 (total: 97)
+[SENDER] Sent chunk 97/1114
+[RECEIVER] Got chunk 97/1114 (total: 98)
+[SENDER] Sent chunk 98/1114
+[RECEIVER] Sent ACKs for 98 chunks
+[RECEIVER] Got chunk 98/1114 (total: 99)
+[SENDER] Sent chunk 99/1114
+[SENDER] Received ACKs for 98 chunks
+[RECEIVER] Got chunk 99/1114 (total: 100)
+[SENDER] Sent chunk 100/1114
+[RECEIVER] Got chunk 100/1114 (total: 101)
+[SENDER] Sent chunk 101/1114
+[RECEIVER] Got chunk 101/1114 (total: 102)
+[SENDER] Sent chunk 102/1114
+[RECEIVER] Sent ACKs for 102 chunks
+[RECEIVER] Got chunk 102/1114 (total: 103)
+[SENDER] Sent chunk 103/1114
+[SENDER] Received ACKs for 102 chunks
+[RECEIVER] Got chunk 103/1114 (total: 104)
+[SENDER] Sent chunk 104/1114
+[RECEIVER] Got chunk 104/1114 (total: 105)
+[SENDER] Sent chunk 105/1114
+[RECEIVER] Got chunk 105/1114 (total: 106)
+[SENDER] Sent chunk 106/1114
+[RECEIVER] Sent ACKs for 106 chunks
+[RECEIVER] Got chunk 106/1114 (total: 107)
+[SENDER] Sent chunk 107/1114
+[RECEIVER] Got chunk 107/1114 (total: 108)
+[SENDER] Received ACKs for 106 chunks
+[SENDER] Sent chunk 108/1114
+[RECEIVER] Got chunk 108/1114 (total: 109)
+[SENDER] Sent chunk 109/1114
+[RECEIVER] Got chunk 109/1114 (total: 110)
+[SENDER] Sent chunk 110/1114
+[RECEIVER] Sent ACKs for 110 chunks
+[RECEIVER] Got chunk 110/1114 (total: 111)
+[SENDER] Sent chunk 111/1114
+[RECEIVER] Got chunk 111/1114 (total: 112)
+[SENDER] Received ACKs for 110 chunks
+[SENDER] Sent chunk 112/1114
+[RECEIVER] Got chunk 112/1114 (total: 113)
+[SENDER] Sent chunk 113/1114
+[RECEIVER] Got chunk 113/1114 (total: 114)
+[SENDER] Sent chunk 114/1114
+[RECEIVER] Sent ACKs for 114 chunks
+[RECEIVER] Got chunk 114/1114 (total: 115)
+[SENDER] Sent chunk 115/1114
+[RECEIVER] Got chunk 115/1114 (total: 116)
+[SENDER] Received ACKs for 114 chunks
+[SENDER] Sent chunk 116/1114
+[RECEIVER] Got chunk 116/1114 (total: 117)
+[SENDER] Sent chunk 117/1114
+[RECEIVER] Got chunk 117/1114 (total: 118)
+
+=== Results ===
+Chunks sent: 118
+Chunks received: 118
+Retransmissions: 0
+ACKs sent: 29
+ACKs received: 1682
+Retransmit rate: 0%
+

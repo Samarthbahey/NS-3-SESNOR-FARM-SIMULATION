@@ -1,0 +1,58 @@
+#include "ns3/core-module.h"
+#include "ns3/network-module.h"
+#include "ns3/mobility-module.h"
+#include "ns3/lorawan-module.h"
+
+using namespace ns3;
+using namespace lorawan;
+
+int main(int argc, char *argv[])
+{
+    std::cout << "Starting LoRaWAN Test…" << std::endl;
+
+    // Create nodes
+    NodeContainer endDevices;
+    endDevices.Create(1);
+
+    NodeContainer gateways;
+    gateways.Create(1);
+
+    // Mobility required
+    MobilityHelper mobility;
+    mobility.SetMobilityModel("ns3::ConstantPositionMobilityModel");
+    mobility.Install(endDevices);
+    mobility.Install(gateways);
+
+    // Channel
+    Ptr<LogDistancePropagationLossModel> loss = CreateObject<LogDistancePropagationLossModel>();
+    Ptr<PropagationDelayModel> delay = CreateObject<ConstantSpeedPropagationDelayModel>();
+    Ptr<LoraChannel> channel = CreateObject<LoraChannel>(loss, delay);
+
+    // Helpers
+    LoraPhyHelper phyHelper;
+    phyHelper.SetChannel(channel);
+
+    LorawanMacHelper macHelper;
+    LoraHelper helper;
+
+    // --- Install Gateway ---
+    phyHelper.SetDeviceType(LoraPhyHelper::GW);
+    macHelper.SetDeviceType(LorawanMacHelper::GW);
+
+    helper.Install(phyHelper, macHelper, gateways);
+
+    // --- Install End Device ---
+    phyHelper.SetDeviceType(LoraPhyHelper::ED);
+    macHelper.SetDeviceType(LorawanMacHelper::ED_A);
+
+    helper.Install(phyHelper, macHelper, endDevices);
+
+    Simulator::Stop(Seconds(3.0));
+    Simulator::Run();
+    Simulator::Destroy();
+
+    std::cout << "Simulation complete." << std::endl;
+    return 0;
+}
+Starting LoRaWAN Test…
+Simulation complete.

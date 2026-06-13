@@ -1,0 +1,63 @@
+#include "ns3/core-module.h"
+#include "ns3/network-module.h"
+#include "ns3/mobility-module.h"
+#include "ns3/propagation-module.h"
+#include "ns3/internet-module.h"
+
+using namespace ns3;
+
+NS_LOG_COMPONENT_DEFINE("LoRaMinimalTest");
+
+int main(int argc, char *argv[])
+{
+    std::cout << "Starting LoRa test…" << std::endl;
+
+    // ------------------------------------
+    // Create 2 nodes
+    // ------------------------------------
+    NodeContainer nodes;
+    nodes.Create(2);
+
+    // ------------------------------------
+    // Mobility (required)
+    // ------------------------------------
+    MobilityHelper mobility;
+    mobility.SetMobilityModel("ns3::ConstantPositionMobilityModel");
+    mobility.Install(nodes);
+
+    // Set explicit positions AFTER install
+    Ptr<MobilityModel> mob0 = nodes.Get(0)->GetObject<MobilityModel>();
+    Ptr<MobilityModel> mob1 = nodes.Get(1)->GetObject<MobilityModel>();
+
+    mob0->SetPosition(Vector(0, 0, 0));
+    mob1->SetPosition(Vector(10, 0, 0));
+
+    // ------------------------------------
+    // Propagation channel WITH TypeId
+    // ------------------------------------
+    Ptr<LogDistancePropagationLossModel> loss = CreateObject<LogDistancePropagationLossModel>();
+
+    // ------------------------------------
+    // Test: Calculate received power
+    // ------------------------------------
+    double txPowerDbm = 14.0;  // 14 dBm typical LoRa power
+
+    double rxPower = loss->CalcRxPower(txPowerDbm, mob0, mob1);
+
+    std::cout << "TX power: " << txPowerDbm << " dBm\n";
+    std::cout << "RX power: " << rxPower << " dBm\n";
+
+    Simulator::Stop(Seconds(0.1));
+    Simulator::Run();
+    Simulator::Destroy();
+
+    std::cout << "LoRa minimal test finished successfully.\n";
+
+    return 0;
+}
+
+
+Starting LoRa test…
+TX power: 14 dBm
+RX power: -62.6777 dBm
+LoRa minimal test finished successfully.

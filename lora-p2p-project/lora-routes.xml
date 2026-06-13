@@ -1,0 +1,1618 @@
+<anim ver="netanim-3.109" filetype="routing" >
+<rt t="0" id="0" info="Node: 0, Time: +0s, Local time: +0s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +0s, Local time: +0s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +0s, Local time: +0s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="0" id="1" info="Node: 1, Time: +0s, Local time: +0s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +0s, Local time: +0s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +0s, Local time: +0s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="0" id="2" info="Node: 2, Time: +0s, Local time: +0s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +0s, Local time: +0s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +0s, Local time: +0s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="0" id="3" info="Node: 3, Time: +0s, Local time: +0s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +0s, Local time: +0s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +0s, Local time: +0s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="0" id="4" info="Node: 4, Time: +0s, Local time: +0s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +0s, Local time: +0s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +0s, Local time: +0s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="5" id="0" info="Node: 0, Time: +5s, Local time: +5s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +5s, Local time: +5s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +5s, Local time: +5s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="5" id="1" info="Node: 1, Time: +5s, Local time: +5s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +5s, Local time: +5s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +5s, Local time: +5s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="5" id="2" info="Node: 2, Time: +5s, Local time: +5s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +5s, Local time: +5s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +5s, Local time: +5s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="5" id="3" info="Node: 3, Time: +5s, Local time: +5s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +5s, Local time: +5s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +5s, Local time: +5s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="5" id="4" info="Node: 4, Time: +5s, Local time: +5s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +5s, Local time: +5s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +5s, Local time: +5s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="10" id="0" info="Node: 0, Time: +10s, Local time: +10s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +10s, Local time: +10s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +10s, Local time: +10s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="10" id="1" info="Node: 1, Time: +10s, Local time: +10s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +10s, Local time: +10s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +10s, Local time: +10s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="10" id="2" info="Node: 2, Time: +10s, Local time: +10s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +10s, Local time: +10s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +10s, Local time: +10s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="10" id="3" info="Node: 3, Time: +10s, Local time: +10s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +10s, Local time: +10s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +10s, Local time: +10s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="10" id="4" info="Node: 4, Time: +10s, Local time: +10s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +10s, Local time: +10s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +10s, Local time: +10s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="15" id="0" info="Node: 0, Time: +15s, Local time: +15s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +15s, Local time: +15s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +15s, Local time: +15s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="15" id="1" info="Node: 1, Time: +15s, Local time: +15s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +15s, Local time: +15s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +15s, Local time: +15s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="15" id="2" info="Node: 2, Time: +15s, Local time: +15s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +15s, Local time: +15s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +15s, Local time: +15s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="15" id="3" info="Node: 3, Time: +15s, Local time: +15s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +15s, Local time: +15s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +15s, Local time: +15s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="15" id="4" info="Node: 4, Time: +15s, Local time: +15s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +15s, Local time: +15s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +15s, Local time: +15s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="20" id="0" info="Node: 0, Time: +20s, Local time: +20s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +20s, Local time: +20s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +20s, Local time: +20s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="20" id="1" info="Node: 1, Time: +20s, Local time: +20s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +20s, Local time: +20s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +20s, Local time: +20s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="20" id="2" info="Node: 2, Time: +20s, Local time: +20s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +20s, Local time: +20s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +20s, Local time: +20s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="20" id="3" info="Node: 3, Time: +20s, Local time: +20s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +20s, Local time: +20s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +20s, Local time: +20s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="20" id="4" info="Node: 4, Time: +20s, Local time: +20s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +20s, Local time: +20s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +20s, Local time: +20s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="25" id="0" info="Node: 0, Time: +25s, Local time: +25s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +25s, Local time: +25s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +25s, Local time: +25s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="25" id="1" info="Node: 1, Time: +25s, Local time: +25s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +25s, Local time: +25s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +25s, Local time: +25s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="25" id="2" info="Node: 2, Time: +25s, Local time: +25s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +25s, Local time: +25s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +25s, Local time: +25s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="25" id="3" info="Node: 3, Time: +25s, Local time: +25s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +25s, Local time: +25s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +25s, Local time: +25s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="25" id="4" info="Node: 4, Time: +25s, Local time: +25s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +25s, Local time: +25s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +25s, Local time: +25s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="30" id="0" info="Node: 0, Time: +30s, Local time: +30s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +30s, Local time: +30s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +30s, Local time: +30s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="30" id="1" info="Node: 1, Time: +30s, Local time: +30s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +30s, Local time: +30s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +30s, Local time: +30s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="30" id="2" info="Node: 2, Time: +30s, Local time: +30s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +30s, Local time: +30s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +30s, Local time: +30s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="30" id="3" info="Node: 3, Time: +30s, Local time: +30s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +30s, Local time: +30s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +30s, Local time: +30s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="30" id="4" info="Node: 4, Time: +30s, Local time: +30s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +30s, Local time: +30s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +30s, Local time: +30s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="35" id="0" info="Node: 0, Time: +35s, Local time: +35s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +35s, Local time: +35s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +35s, Local time: +35s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="35" id="1" info="Node: 1, Time: +35s, Local time: +35s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +35s, Local time: +35s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +35s, Local time: +35s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="35" id="2" info="Node: 2, Time: +35s, Local time: +35s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +35s, Local time: +35s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +35s, Local time: +35s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="35" id="3" info="Node: 3, Time: +35s, Local time: +35s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +35s, Local time: +35s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +35s, Local time: +35s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="35" id="4" info="Node: 4, Time: +35s, Local time: +35s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +35s, Local time: +35s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +35s, Local time: +35s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="40" id="0" info="Node: 0, Time: +40s, Local time: +40s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +40s, Local time: +40s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +40s, Local time: +40s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="40" id="1" info="Node: 1, Time: +40s, Local time: +40s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +40s, Local time: +40s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +40s, Local time: +40s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="40" id="2" info="Node: 2, Time: +40s, Local time: +40s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +40s, Local time: +40s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +40s, Local time: +40s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="40" id="3" info="Node: 3, Time: +40s, Local time: +40s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +40s, Local time: +40s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +40s, Local time: +40s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="40" id="4" info="Node: 4, Time: +40s, Local time: +40s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +40s, Local time: +40s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +40s, Local time: +40s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="45" id="0" info="Node: 0, Time: +45s, Local time: +45s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +45s, Local time: +45s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +45s, Local time: +45s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="45" id="1" info="Node: 1, Time: +45s, Local time: +45s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +45s, Local time: +45s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +45s, Local time: +45s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="45" id="2" info="Node: 2, Time: +45s, Local time: +45s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +45s, Local time: +45s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +45s, Local time: +45s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="45" id="3" info="Node: 3, Time: +45s, Local time: +45s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +45s, Local time: +45s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +45s, Local time: +45s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="45" id="4" info="Node: 4, Time: +45s, Local time: +45s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +45s, Local time: +45s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +45s, Local time: +45s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="50" id="0" info="Node: 0, Time: +50s, Local time: +50s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +50s, Local time: +50s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +50s, Local time: +50s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="50" id="1" info="Node: 1, Time: +50s, Local time: +50s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +50s, Local time: +50s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +50s, Local time: +50s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="50" id="2" info="Node: 2, Time: +50s, Local time: +50s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +50s, Local time: +50s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +50s, Local time: +50s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="50" id="3" info="Node: 3, Time: +50s, Local time: +50s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +50s, Local time: +50s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +50s, Local time: +50s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="50" id="4" info="Node: 4, Time: +50s, Local time: +50s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +50s, Local time: +50s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +50s, Local time: +50s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="55" id="0" info="Node: 0, Time: +55s, Local time: +55s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +55s, Local time: +55s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +55s, Local time: +55s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="55" id="1" info="Node: 1, Time: +55s, Local time: +55s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +55s, Local time: +55s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +55s, Local time: +55s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="55" id="2" info="Node: 2, Time: +55s, Local time: +55s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +55s, Local time: +55s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +55s, Local time: +55s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="55" id="3" info="Node: 3, Time: +55s, Local time: +55s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +55s, Local time: +55s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +55s, Local time: +55s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="55" id="4" info="Node: 4, Time: +55s, Local time: +55s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +55s, Local time: +55s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +55s, Local time: +55s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="60" id="0" info="Node: 0, Time: +60s, Local time: +60s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +60s, Local time: +60s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +60s, Local time: +60s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="60" id="1" info="Node: 1, Time: +60s, Local time: +60s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +60s, Local time: +60s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +60s, Local time: +60s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="60" id="2" info="Node: 2, Time: +60s, Local time: +60s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +60s, Local time: +60s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +60s, Local time: +60s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="60" id="3" info="Node: 3, Time: +60s, Local time: +60s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +60s, Local time: +60s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +60s, Local time: +60s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="60" id="4" info="Node: 4, Time: +60s, Local time: +60s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +60s, Local time: +60s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +60s, Local time: +60s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="65" id="0" info="Node: 0, Time: +65s, Local time: +65s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +65s, Local time: +65s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +65s, Local time: +65s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="65" id="1" info="Node: 1, Time: +65s, Local time: +65s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +65s, Local time: +65s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +65s, Local time: +65s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="65" id="2" info="Node: 2, Time: +65s, Local time: +65s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +65s, Local time: +65s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +65s, Local time: +65s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="65" id="3" info="Node: 3, Time: +65s, Local time: +65s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +65s, Local time: +65s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +65s, Local time: +65s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="65" id="4" info="Node: 4, Time: +65s, Local time: +65s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +65s, Local time: +65s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +65s, Local time: +65s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="70" id="0" info="Node: 0, Time: +70s, Local time: +70s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +70s, Local time: +70s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +70s, Local time: +70s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="70" id="1" info="Node: 1, Time: +70s, Local time: +70s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +70s, Local time: +70s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +70s, Local time: +70s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="70" id="2" info="Node: 2, Time: +70s, Local time: +70s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +70s, Local time: +70s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +70s, Local time: +70s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="70" id="3" info="Node: 3, Time: +70s, Local time: +70s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +70s, Local time: +70s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +70s, Local time: +70s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="70" id="4" info="Node: 4, Time: +70s, Local time: +70s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +70s, Local time: +70s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +70s, Local time: +70s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="75" id="0" info="Node: 0, Time: +75s, Local time: +75s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 0, Time: +75s, Local time: +75s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 0, Time: +75s, Local time: +75s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.1.2        0.0.0.0         UG    -      -      -   1
+
+" />
+<rt t="75" id="1" info="Node: 1, Time: +75s, Local time: +75s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 1, Time: +75s, Local time: +75s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.1.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 1, Time: +75s, Local time: +75s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.1        10.1.1.1        255.255.255.255 UH    -      -      -   1
+10.1.2.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.1        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.4.2        10.1.2.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.1.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.2.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="75" id="2" info="Node: 2, Time: +75s, Local time: +75s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 2, Time: +75s, Local time: +75s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.2.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 2, Time: +75s, Local time: +75s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.1.2        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.1        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.3.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.1        10.1.2.1        255.255.255.255 UH    -      -      -   1
+10.1.4.2        10.1.3.2        255.255.255.255 UH    -      -      -   2
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.2.1        255.255.255.0   UG    -      -      -   1
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.3.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+10.1.4.0        10.1.3.2        255.255.255.0   UG    -      -      -   2
+
+" />
+<rt t="75" id="3" info="Node: 3, Time: +75s, Local time: +75s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 3, Time: +75s, Local time: +75s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.3.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   2
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 3, Time: +75s, Local time: +75s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.1.4.2        10.1.4.2        255.255.255.255 UH    -      -      -   2
+10.1.2.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.3.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.2        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.2.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.1.1        10.1.3.1        255.255.255.255 UH    -      -      -   1
+10.1.4.0        10.1.4.2        255.255.255.0   UG    -      -      -   2
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.3.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.2.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+10.1.1.0        10.1.3.1        255.255.255.0   UG    -      -      -   1
+
+" />
+<rt t="75" id="4" info="Node: 4, Time: +75s, Local time: +75s, Ipv4ListRouting table
+  Priority: 0 Protocol: ns3::Ipv4StaticRouting
+Node: 4, Time: +75s, Local time: +75s, Ipv4StaticRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+127.0.0.0       0.0.0.0         255.0.0.0       U     0      -      -   0
+10.1.4.0        0.0.0.0         255.255.255.0   U     0      -      -   1
+
+  Priority: -10 Protocol: ns3::Ipv4GlobalRouting
+Node: 4, Time: +75s, Local time: +75s, Ipv4GlobalRouting table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.1.4.1        0.0.0.0         UG    -      -      -   1
+
+" />
+</anim>
